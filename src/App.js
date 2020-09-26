@@ -14,9 +14,9 @@ function App() {
       <NavbarPage/>
         
       <Switch>
-      <Route exact path="/" component={LandingPage} />
+      <Route exact path="/Assignment-Movie-search" component={LandingPage} />
       <Route exact path="/favorites" component={Favorites} />
-      <Redirect to="/"/>
+      <Redirect to="/Assignment-Movie-search"/>
 
       </Switch>
       

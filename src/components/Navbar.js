@@ -10,7 +10,7 @@ const NavbarPage=()=>{
         <Navbar collapseOnSelect expand="lg" className="navbar-clr" fixed="top">
           <div className="container">
           {/* <Navbar.Brand href="/">Movies Search</Navbar.Brand> */}
-          <Link to="/" className="search-link"> Movie Search </Link>
+          <Link to="/Assignment-Movie-search" className="search-link"> Movie Search </Link>
         
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
