@@ -1,0 +1,44 @@
+
+
+/* form area css changes goes from here */
+
+section.search-area {
+    margin-top: 9em;
+}
+
+
+/* select area changes goes from here */
+.select__area{
+    text-align: center;
+}
+
+/* favoutie section css goes here  */
+
+.fvrt-section{
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+    text-align: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+tr {
+    border: 2px solid gray;
+    height: 2.5em;
+}
+
+
+/* media queries */
+
+@media only screen and (max-width: 600px) {
+    .home__section {
+        grid-template-columns: 1fr;
+    }
+  }
+
+  @media only screen and (max-width: 992px) {
+    .home__section {
+        grid-template-columns: 1fr 1fr;
+    }
+  }

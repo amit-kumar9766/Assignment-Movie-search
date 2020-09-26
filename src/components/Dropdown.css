@@ -1,0 +1,11 @@
+.home__section{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 3em;
+    grid-gap: 50px;
+}
+
+.drop__only{
+  margin-top:-70px!important;
+  margin-bottom: 100px;
+}
